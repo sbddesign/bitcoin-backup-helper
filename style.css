@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+
+body, html {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 62.25%;
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    max-width: 800px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+#bitcoin-design-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2rem;
+}
+
+#bitcoin-design-footer img {
+    width: 200px;
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: #F7931A;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+.links li a {
+    background-color: #F7931A;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    display: inline-block;
+}
+
+@media (min-width: 600px) {
+    .links {
+        flex-direction: row;
+        margin: 0 0.5rem;
+    }
+}
+
